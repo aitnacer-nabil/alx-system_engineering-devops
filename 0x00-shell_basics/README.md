@@ -3,3 +3,4 @@
 2-bring_me_home:changes the current working directory to the home directory (cd ~). but to run script u should use source or  .
 3-listfiles: Display current directory contents in a long format
 4-listmorefiles : ls -la .. -Display current directory contents, including hidden files (starting with .). Use the long format.
+5-listfilesdigitonly :ls -lan The options used here are:-l: display in long format -a: show hidden files -n: display user and group IDs numerically
