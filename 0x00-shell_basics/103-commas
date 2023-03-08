@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -ap | grep -v '/\.\{1,2\}$' | sort -Vf | tr '\n' ','; echo

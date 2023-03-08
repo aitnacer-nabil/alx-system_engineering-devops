@@ -16,3 +16,8 @@
 100-lets_move :  a script that moves all files beginning with an uppercase letter to the directory /tmp/u.
 101-clean_emacs :  a script that deletes all files in the current working directory that end with the character ~
 102-tree : create atree folder
+103-commas :ls -ap: lists all files and directories in the current directory, including hidden files and directories, and adds a slash at the end of directory names.
+grep -v '/\.\{1,2\}$': filters out the directories . and .., which end with one or two dots, by using grep with the -v option to invert the match, and the regular expression /\.\{1,2\}$ to match directories that end with one or two dots.
+sort -Vf: sorts the remaining files and directories alphabetically, except for . and .., by using sort with the -V option to sort version numbers first, and the -f option to ignore case.
+tr '\n' ',': replaces newlines with commas.
+echo: appends a newline at the end of the listing.
